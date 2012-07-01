@@ -1,0 +1,13 @@
+{
+    "name": "esperance/esperance-phpunit",
+    "description": "PHPUnit TestCase class integrated with Esperance assertion library.",
+    "keywords": ["bdd", "tdd", "assertion", "phpunit"],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.2",
+        "esperance/esperance": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "Esperance": "src" }
+    }
+}
