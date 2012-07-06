@@ -31,7 +31,7 @@ $ php composer.phar install
 
 Then Esp&eacute;rance would be installed in `./vendor` directory and also `./vendor/autoload.php` is generated.
 
-### PHPUnit integration
+### Writing tests with Esp&eacute;rance assertion
 
 Just replace `PHPUnit_Framework_TestCase` with `\Esperance\PHPUnit\Testcase`.
 
