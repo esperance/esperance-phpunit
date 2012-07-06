@@ -1,11 +1,15 @@
 {
-    "hash": "d60e230fc92f2f9edd891dbf8e8b2cca",
+    "hash": "f85626c8b1432f120dca4eb9533a9f74",
     "packages": [
         {
             "package": "esperance/esperance",
-            "version": "dev-master",
-            "source-reference": "e8dbc864c77c3eb176d3ad948b9009264724efaa",
-            "commit-date": "1341145510"
+            "version": "v0.1.0"
+        },
+        {
+            "package": "evenement/evenement",
+            "version": "1.0.x-dev",
+            "source-reference": "v1.0.0",
+            "commit-date": "1338390068"
         }
     ],
     "packages-dev": null,
@@ -13,7 +17,7 @@
 
     ],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "esperance/esperance": 20
-    }
+    "stability-flags": [
+
+    ]
 }

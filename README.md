@@ -1,5 +1,5 @@
-Esp&eacute;rance-PHPUnit
-========================
+Esp&eacute;rance PHPUnit Extension
+==================================
 
 PHPUnit TestCase class integrated with [Esp&eacute;rance](https://github.com/esperance/esperance) assertion library.
 
@@ -17,7 +17,7 @@ At first, save below as `composer.json` at the root of your project.
 ```
 {
     "require": {
-        "esperance/esperance-phpunit": "dev-master"
+        "esperance/esperance-phpunit": "0.1.*"
     }
 }
 ```
@@ -39,9 +39,11 @@ Then `$this->expect()` method is available to specify subject for the test.
 
 ```php
 <?php
+require './vendor/autoload.php';
+
 class YourTestCase extends \Esperance\PHPUnit\TestCase
 {
-    public testSomething()
+    public function testSomething()
     {
         $this->expect(1 + 1)->to->be(2);
         $this->expect("foo" . "bar")->to->be("foobar")->and->not->to->be('baz');
