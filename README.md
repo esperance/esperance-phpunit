@@ -14,7 +14,7 @@ Esp&eacute;rance-PHPUnit can be installed using [Composer](http://getcomposer.or
 
 At first, save below as `composer.json` at the root of your project.
 
-```
+```json
 {
     "require": {
         "esperance/esperance-phpunit": "0.1.*"
